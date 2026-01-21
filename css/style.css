@@ -2,6 +2,11 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: innter;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
 }
 
 
@@ -166,4 +171,59 @@
   font-weight: 400;
   line-height: 20px;
   color: #627382;
+}
+
+/* brain-section */
+#brain-section{
+    margin: 120px;
+}
+.brain-info{
+    display: flex;
+    /* align-items: center; */
+    gap: 60px;
+}
+.brain-images img{
+    width: 600px;
+    height: 600px;
+}
+/* brain-content */
+.brain-content{
+    margin: 102px 0;
+}
+.brain-text .upeer{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #30B868;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+.brain-text h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+    line-height: 100%;
+    margin-bottom: 16px;
+}
+.brain-text p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+/* point */
+
+/* check-point */
+.check-point{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 16px;
+}
+.check-point p{
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 20px;
+    color: #001931;
 }
