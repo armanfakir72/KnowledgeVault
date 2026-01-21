@@ -6,9 +6,7 @@
 
 
 /* header */
-#header{
 
-}
 /* navbar */
 .navbar{
     max-width: 1200px;
@@ -46,10 +44,10 @@
 #banner-section{
     background-image: url(../assets/hero-bg.png);
     height: 100vh;
+    background-repeat: no-repeat;
     text-align: center;
     display: flex;
     align-items: center;
-    margin-bottom: ;
 }
 .banner-content{
     max-width: 1296px;
@@ -98,6 +96,7 @@
     border-radius: 8px;
     border: none;
     margin-right: 10px;
+    cursor: pointer;
     
 }
 .bannner-btn .secondary-btn{
@@ -108,4 +107,63 @@
     font-size: 16px;
     font-weight: 600;
     color: #FFFFFF;
+    cursor: pointer;
+}
+/* main-section */
+
+#problem-section{
+    text-align: center;
+}
+.problem-content h2{
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.problem-content p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 44px;
+}
+.problem-cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1536px;
+    margin: 0 auto;
+    width: 71%;
+    gap: 20px;
+}
+.cards{
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 -4px 20px rgba(0,0,0,0.1);
+}
+
+.icon-bg{
+  width: 40px;
+  height: 40px;
+  background-color: #F95555;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin: 0 auto 15px;
+}
+.icon-bg img{
+  width: 20px;
+  height: auto;
+}
+.cards h2{
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #001931;
+}
+.cards p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #627382;
 }
