@@ -13,10 +13,10 @@ body {
 
 /* navbar */
 .navbar {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 16px 0;
   align-items: center;
 }
@@ -41,7 +41,7 @@ body {
   border: none;
   border-radius: 4px;
   font-size: 16px;
-  font-weight: semi-bold;
+  font-weight: 600;
   color: #ffffff;
   cursor: pointer;
 }
@@ -53,6 +53,8 @@ body {
   text-align: center;
   display: flex;
   align-items: center;
+  width: 100%;
+  background-size: cover;
 }
 .banner-content {
   max-width: 1296px;
@@ -174,12 +176,16 @@ body {
   margin: 120px;
 }
 .brain-info {
+  max-width: 100%;
+  width: 87%;
   display: flex;
+  justify-content: center;
   gap: 60px;
+  align-items: center;
 }
 .brain-images img {
-  width: 600px;
-  height: 600px;
+  max-width: 100%;
+  height: auto;
 }
 /* brain-content */
 .brain-content {
@@ -225,7 +231,7 @@ body {
 
 /* access-info */
 #access-info {
-  max-width: 1540px;
+  max-width: 100%;
   width: 87%;
   margin: 0 auto;
   display: flex;
@@ -235,6 +241,7 @@ body {
   min-height: 384px;
   text-align: center;
   margin-bottom: 120px;
+  border-radius: 10px;
 }
 .info h2 {
   font-size: 40px;
@@ -264,7 +271,7 @@ body {
 /* footer */
 .footer-section {
   background-color: #001931;
-  max-width: 1560px;
+  max-width: 100%;
 }
 .footer {
   display: flex;
@@ -294,3 +301,4 @@ body {
 .social-icon img{
     margin-right: 10px;
 }
+    
